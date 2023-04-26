@@ -59,6 +59,6 @@ public class playerMovement : MonoBehaviour
             movement.y = 7.5f;
         }
 
-       
+        Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, 3, Camera.main.transform.position.z);
     }
 }

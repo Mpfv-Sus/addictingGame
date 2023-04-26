@@ -9,6 +9,7 @@ public class MainMenuButtons : MonoBehaviour
     private void Start()
     {
         SceneManager.UnloadSceneAsync("Game");
+        SceneManager.UnloadSceneAsync("DeathScreen");
     }
     public void quit()
     {
